@@ -8,8 +8,13 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableAutoConfiguration
 class Greeter {
 
-  @RequestMapping("/pravin")
+  @RequestMapping("/")
   String sayHello() {
     return "Hello Pravin Yadav";
+  }
+
+  @RequestMapping("/morning")
+  String sayMorning() {
+    return "Hello Goodmorning Pravin Yadav";
   }
 }

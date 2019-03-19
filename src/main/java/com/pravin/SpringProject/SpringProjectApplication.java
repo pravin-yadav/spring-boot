@@ -10,5 +10,6 @@ public class SpringProjectApplication {
     Greeter greet = new Greeter();
     SpringApplication.run(SpringProjectApplication.class, args);
     greet.sayHello();
+    greet.sayMorning();
   }
 }
