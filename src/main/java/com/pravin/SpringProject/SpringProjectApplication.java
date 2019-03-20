@@ -7,9 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringProjectApplication {
 
   public static void main(String[] args) {
-    Greeter greet = new Greeter();
     SpringApplication.run(SpringProjectApplication.class, args);
-    greet.sayHello();
-    greet.sayMorning();
   }
 }
